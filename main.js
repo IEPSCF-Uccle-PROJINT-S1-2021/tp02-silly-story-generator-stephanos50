@@ -44,6 +44,7 @@ function result() {
   replaceItem(xInsert,xItem);
 
 
+
   function replaceItem(insert,item){
     if(newStory.includes(insert)){
         copyStory = copyStory.replace(insert,item);
